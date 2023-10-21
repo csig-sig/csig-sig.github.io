@@ -2,11 +2,13 @@ body::before {
     /* padding-top: 20px; */
     background-color: #F09415;
     content: "";
-    display: block;
+    /* display: block; */
 }
 
 title_body {
     /* position: fixed; */
+    top: 0;
+    left: 0;
     background-color: #262626;
     display: flex;
     flex-direction: row;
@@ -75,6 +77,7 @@ title_text {
 
 content_body {
     margin-top: 0;
+    left: 0;
     background-color: #F09415;
     display: block;
     flex-direction: column;
@@ -84,6 +87,7 @@ content_body {
     padding-right: 15%;
     padding-bottom: 20px;
     padding-top: 20px;
+    /* max-width: 1000px; */
 }
 
 .border {
@@ -134,6 +138,7 @@ a {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
+    /* max-width: 800px; */
 }
 
 .photo-grid_3 {
@@ -154,6 +159,7 @@ a {
 
 .photo-container {
     position: relative;
+    max-width: 200px;
 }
 
 .photo-title {
@@ -224,42 +230,9 @@ a {
 }
 
 
-.c18477 {
-    padding: 10px;
-    color: #ffffff;
-}
 
 .col-md-8.col-lg-5.d-flex.position-relative.mx-auto {
     width: 500px;
-}
-
-
-.c32003 {
-    color: black;
-    width: 326px;
-    height: 326px;
-    position: relative;
-    border-radius: 250px 180px 250px 180px;
-}
-
-.c32237 {
-    padding: 10px;
-    text-align: right;
-    color: #3d43b4;
-    position: relative;
-    font-size: 50px;
-    font-family: Georgia, serif;
-}
-
-.c32308 {
-    color: #ffffff;
-    font-weight: 700;
-}
-
-.c22214 {
-    position: relative;
-    width: 3123.6px;
-    en: 1;
 }
 
 .progress-list .progressbar.line {
@@ -326,7 +299,7 @@ a {
 }
 
 a {
-    color: rgb(0, 123, 255);
+    color: blue;
     text-decoration-line: none;
     text-decoration-thickness: initial;
     text-decoration-style: initial;
@@ -342,31 +315,6 @@ a:hover {
     text-decoration-color: initial;
 }
 
-.c54889 {
-    color: black;
-    width: 546px;
-    float: right;
-}
-
-.c55070 {
-    height: 392px;
-    width: 689px;
-}
-
-.c55255 {
-    padding: 10px;
-}
-
-.c55579 {
-    width: 412.8px;
-    en: 1;
-}
-
-.c55669 {
-    height: 95px;
-    en: 1;
-    color: #ffffff;
-}
 
 @media (max-width: 768px) {
     .htmlpage-cell {
