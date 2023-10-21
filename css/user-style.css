@@ -1,0 +1,376 @@
+body::before {
+    /* padding-top: 20px; */
+    background-color: #F09415;
+    content: "";
+    display: block;
+}
+
+title_body {
+    /* position: fixed; */
+    background-color: #262626;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 20px;
+    z-index: 100;
+}
+
+.position-f {
+    position: fixed;
+}
+
+header_left {
+    text-align: left;
+    width: 30%;
+    padding-left: 20px;
+}
+
+title_title {
+    color: #FEFAE0;
+    font-weight: 600;
+    font-size: 32px;
+    margin: 0;
+    /* white-space: normal; */
+}
+
+.orange {
+    color: #F09415;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.introduction {
+    flex-grow: 1;
+    border-left: 2px solid black;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.detail {
+    background-color: #870401;
+    flex-grow: 1;
+    display: flex;
+    /* width: 20%; */
+    /* border: 1px solid black; */
+    padding-left: 20px;
+    padding-top: 5px;
+    text-align: left;
+}
+
+title_text {
+    color: #D4A373;
+    font-size: 18px;
+    margin: 0 auto;
+    width: 35%;
+}
+
+content_body {
+    margin-top: 0;
+    background-color: #F09415;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.border {
+    border: 2px groove #262626;
+}
+
+content_header {
+    text-align: center;
+    align-items: center;
+    padding-left: 15%;
+    /* width: 80%; */
+}
+
+.header {
+    text-align: left;
+    align-items: center;
+    padding-left: 15%;
+    /* width: 80%; */
+}
+
+content_header_text {
+    color: #FEFAE0;
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+content_date {
+    color: black;
+    font-size: 16px;
+}
+
+content_normal_text {
+    color: #262626;
+    font-size: 20px;
+}
+
+
+content_intro {
+    color: #262626;
+}
+
+a {
+    color: #262626;
+}
+
+.photo-grid_4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.photo-grid_3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.photo {
+    text-align: center;
+}
+
+.photo img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.photo-container {
+    position: relative;
+}
+
+.photo-title {
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+}
+
+.c6421 {
+    width: 75px;
+    height: 75px;
+    float: right;
+}
+
+.htmlpage-row {
+    display: table;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.htmlpage-cell {
+    width: 8%;
+    display: table-cell;
+    height: 75px;
+}
+
+.c13392 {
+    padding: 10px;
+    font-size: 32px;
+    float: left;
+    font-weight: 700;
+}
+
+.navbar.navbar-expand-lg.fancy.navbar-light.navbar-bg-light.transparent.navbar-clone.fixed {
+    background-color: #ffffff;
+}
+
+.head_bg {
+    background-color: #041348;
+}
+
+.body1 {
+    background-color: #F09415;
+}
+
+.wrapper {
+    background-color: #F09415;
+}
+
+.wrapper.bg-gray {
+    background-color: #25274d;
+    border: 0 solid #25274d;
+}
+
+
+.col-lg-6.offset-lg-1.col-xxl-5.text-center.text-lg-start {
+    width: 1000px;
+    position: relative;
+    text-align: left;
+}
+
+
+.c18477 {
+    padding: 10px;
+    color: #ffffff;
+}
+
+.col-md-8.col-lg-5.d-flex.position-relative.mx-auto {
+    width: 500px;
+}
+
+
+.c32003 {
+    color: black;
+    width: 326px;
+    height: 326px;
+    position: relative;
+    border-radius: 250px 180px 250px 180px;
+}
+
+.c32237 {
+    padding: 10px;
+    text-align: right;
+    color: #3d43b4;
+    position: relative;
+    font-size: 50px;
+    font-family: Georgia, serif;
+}
+
+.c32308 {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.c22214 {
+    position: relative;
+    width: 3123.6px;
+    en: 1;
+}
+
+.progress-list .progressbar.line {
+    height: 8px;
+    background-color: rgb(244, 244, 244);
+}
+
+.row.gy-10.gy-sm-13.gx-lg-3.align-items-center {
+    color: #1afe49;
+}
+
+.fdb-block {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    padding-top: 100px;
+    padding-right: 0px;
+    padding-bottom: 100px;
+    padding-left: 0px;
+    color: rgb(68, 68, 68);
+    position: relative;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.fdb-block .text-h1,
+.fdb-block h1 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5em;
+    margin-top: 0.3em;
+    font-weight: 400;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: 236.453px;
+    width: 248px;
+}
+
+.fdb-block .text-h3,
+.fdb-block h3 {
+    font-size: 0.875rem;
+    margin-bottom: 0.5em;
+    margin-top: 0.3em;
+    font-weight: 400;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.fdb-block img+h3,
+.fdb-block img+h4,
+.fdb-block img+p {
+    margin-top: 20px;
+}
+
+a {
+    color: rgb(0, 123, 255);
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    background-color: transparent;
+}
+
+a:hover {
+    color: rgb(0, 86, 179);
+    text-decoration-line: underline;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+.c54889 {
+    color: black;
+    width: 546px;
+    float: right;
+}
+
+.c55070 {
+    height: 392px;
+    width: 689px;
+}
+
+.c55255 {
+    padding: 10px;
+}
+
+.c55579 {
+    width: 412.8px;
+    en: 1;
+}
+
+.c55669 {
+    height: 95px;
+    en: 1;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .htmlpage-cell {
+        width: 100%;
+        display: block;
+    }
+}
