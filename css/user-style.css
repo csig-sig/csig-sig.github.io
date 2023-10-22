@@ -151,7 +151,7 @@ report {
 }
 
 content-header-text {
-    font-size: 18px;
+    font-size: 20px;
     color: #FEFAE0;
     /* font-size: 22px; */
     /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
@@ -159,7 +159,7 @@ content-header-text {
 
 .host-speaker {
     color: #262626;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -259,6 +259,7 @@ content_intro {
     /* 2 columns */
     gap: 0;
     height: 200px;
+    width: 260px;
     /* Remove gap between grid cells */
 }
 
