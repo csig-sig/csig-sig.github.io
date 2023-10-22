@@ -146,6 +146,8 @@ report {
 .green-and-underline {
     color: cyan;
     text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 content-header-text {
