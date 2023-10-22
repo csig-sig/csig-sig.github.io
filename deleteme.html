@@ -3,62 +3,149 @@
 
 <head>
    <style>
-      /* Style for the title */
+      /* Style for the title bar */
       header {
          position: fixed;
          top: 0;
          left: 0;
          width: 100%;
-         background-color: black;
+         background-color: #333;
+         /* Background color for the title bar */
          color: white;
          padding: 10px;
+         display: flex;
+         /* Use flexbox for layout */
+         align-items: center;
+         /* Center items vertically within the header */
       }
 
-      /* Style for the sections */
-      .section {
-         padding: 20px;
+      /* Style for the logo */
+      .logo {
+         width: 50px;
+         /* Set the width of the logo as needed */
+         height: 50px;
+         /* Set the height of the logo as needed */
+         background-color: #ff6600;
+         /* Background color for the logo */
       }
 
-      /* Create a split line between section 2 and 3 */
-      .split-line {
-         border-top: 2px solid black;
-         margin-top: 20px;
+      /* Style for the big name */
+      .big-name {
+         font-size: 24px;
+         /* Set the font size for the big name */
+         margin-right: 20px;
+         /* Add spacing to the right of the big name */
+      }
+
+      /* Style for the border */
+      .border {
+         border-left: 1px solid white;
+         /* Add a left border to separate the big name and details introduction */
+         margin-right: 20px;
+         /* Add spacing to the right of the border */
+      }
+
+      /* Style for the details introduction */
+      .details-intro {
+         font-size: 14px;
+         /* Set the font size for the details introduction */
       }
    </style>
 </head>
 
 <body>
    <header>
-      <h1>Fixed Title</h1>
+      <!-- Logo -->
+      <div class="logo"></div>
+
+      <!-- Big Name -->
+      <h1 class="big-name">Website Title</h1>
+
+      <!-- Border -->
+      <div class="border"></div>
+
+      <!-- Details Introduction -->
+      <p class="details-intro">Welcome to our website. We provide information and services to meet your needsWelcome to
+         our website. We provide information and services to meet your needsWelcome to our website. We provide
+         information and services to meet your needsWelcome to our website. We provide information and services to meet
+         your needs....Welcome to our website. We provide information and services to meet your needs.</p>
    </header>
 
-   <div class="section">
-      <p>Section 1 - This is the first section of paragraphs.</p>
-      <p>More content in section 1.</p>
-   </div>
+   <!-- Rest of the website content goes here -->
+</body>
 
-   <div class="section">
-      <p>Section 2 - This is the second section of paragraphs.</p>
-      <p>More content in section 2.</p>
-   </div>
+</html>
+<!DOCTYPE html>
+<html>
 
-   <!-- Split line between section 2 and 3 -->
-   <div class="split-line"></div>
+<head>
+   <style>
+      /* Style for the title bar */
+      header {
+         position: fixed;
+         top: 0;
+         left: 0;
+         width: 100%;
+         background-color: #333;
+         /* Background color for the title bar */
+         color: white;
+         padding: 10px;
+         display: flex;
+         /* Use flexbox for layout */
+         align-items: center;
+         /* Center items vertically within the header */
+      }
 
-   <div class="section">
-      <p>Section 3 - This is the third section of paragraphs.</p>
-      <p>More content in section 3.</p>
-   </div>
+      /* Style for the logo */
+      .logo {
+         width: 50px;
+         /* Set the width of the logo as needed */
+         height: 50px;
+         /* Set the height of the logo as needed */
+         background-color: #ff6600;
+         /* Background color for the logo */
+      }
 
-   <div class="section">
-      <p>Section 4 - This is the fourth section of paragraphs.</p>
-      <p>More content in section 4.</p>
-   </div>
+      /* Style for the big name */
+      .big-name {
+         font-size: 24px;
+         /* Set the font size for the big name */
+         margin-right: 20px;
+         /* Add spacing to the right of the big name */
+      }
 
-   <div class="section">
-      <p>Section 5 - This is the fifth section of paragraphs.</p>
-      <p>More content in section 5.</p>
-   </div>
+      /* Style for the border */
+      .border {
+         border-left: 1px solid white;
+         /* Add a left border to separate the big name and details introduction */
+         margin-right: 20px;
+         /* Add spacing to the right of the border */
+      }
+
+      /* Style for the details introduction */
+      .details-intro {
+         font-size: 14px;
+         /* Set the font size for the details introduction */
+      }
+   </style>
+</head>
+
+<body>
+   <header>
+      <!-- Logo -->
+      <div class="logo"></div>
+
+      <!-- Big Name -->
+      <h1 class="big-name">Website Title</h1>
+
+      <!-- Border -->
+      <div class="border"></div>
+
+      <!-- Details Introduction -->
+      <p class="details-intro">Welcome to our website. We provide information and services to meet your needs.</p>
+   </header>
+
+   <!-- Rest of the website content goes here -->
 </body>
 
 </html>
