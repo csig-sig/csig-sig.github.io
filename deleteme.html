@@ -2,49 +2,110 @@
 <html>
 
 <head>
-   <title>Fixed Title</title>
    <style>
-      /* Style for the title */
-      header {
-         position: fixed;
-         top: 0;
-         left: 0;
-         width: 100%;
-         background-color: black;
-         color: white;
+      /* Apply styles for the entire grid */
+      .grid {
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         /* 2 columns */
+         gap: 0;
+         /* Remove gap between grid cells */
+      }
+
+      /* Style for the even rows */
+      .even-row {
+         background-color: lightblue;
+      }
+
+      /* Style for the odd rows */
+      .odd-row {
+         background-color: lightgreen;
+      }
+
+      /* Style for the left column text */
+      .left-column {
+         text-align: right;
+         /* Align text to the right in the left column */
          padding: 10px;
       }
 
-      /* Style for the main content */
-      main {
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         margin-top: 60px;
-         /* Adjust as needed to prevent overlap with the fixed title */
+      /* Style for the right column text */
+      .right-column {
+         text-align: left;
+         /* Align text to the left in the right column */
+         padding: 10px;
       }
 
-      /* Style for the images */
-      img {
-         max-width: 100%;
-         height: auto;
-         margin: 10px;
+      /* Remove margin on <p> elements */
+      .grid p {
+         margin: 0;
       }
    </style>
 </head>
 
 <body>
-   <header>
-      <h1>Fixed Title</h1>
-   </header>
-
-   <main>
-      <!-- Centered row of images -->
-      <img src="./img/organ-0.jpg" alt="Image 1">
-      <img src="./img/organ-2.png" alt="Image 2">
-      <img src="./img/organ-4.jpeg" alt="Image 3">
-      <img src="./img/organ-0.jpg" alt="Image 4">
-   </main>
+   <div class="grid">
+      <div class="even-row">
+         <div class="left-column">
+            <p>Column 1 - Text aligns right</p>
+            <p>Column 1 - More text aligns right</p>
+         </div>
+         <div class="right-column">
+            <p>Column 2 - Text aligns left</p>
+            <p>Column 2 - More text aligns left</p>
+         </div>
+      </div>
+      <div class="even-row">
+         <div class="left-column">
+            <p>Column 1 - Text aligns right</p>
+            <p>Column 1 - More text aligns right</p>
+         </div>
+         <div class="right-column">
+            <p>Column 2 - Text aligns left</p>
+            <p>Column 2 - More text aligns left</p>
+         </div>
+      </div>
+      <div class="odd-row">
+         <div class="left-column">
+            <p>Column 1 - Text aligns right</p>
+            <p>Column 1 - More text aligns right</p>
+         </div>
+         <div class="right-column">
+            <p>Column 2 - Text aligns left</p>
+            <p>Column 2 - More text aligns left</p>
+         </div>
+      </div>
+      <div class="odd-row">
+         <div class="left-column">
+            <p>Column 1 - Text aligns right</p>
+            <p>Column 1 - More text aligns right</p>
+         </div>
+         <div class "right-column">
+            <p>Column 2 - Text aligns left</p>
+            <p>Column 2 - More text aligns left</p>
+         </div>
+      </div>
+      <div class="even-row">
+         <div class="left-column">
+            <p>Column 1 - Text aligns right</p>
+            <p>Column 1 - More text aligns right</p>
+         </div>
+         <div class="right-column">
+            <p>Column 2 - Text aligns left</p>
+            <p>Column 2 - More text aligns left</p>
+         </div>
+      </div>
+      <div class="even-row">
+         <div class="left-column">
+            <p>Column 1 - Text aligns right</p>
+            <p>Column 1 - More text aligns right</p>
+         </div>
+         <div class="right-column">
+            <p>Column 2 - Text aligns left</p>
+            <p>Column 2 - More text aligns left</p>
+         </div>
+      </div>
+   </div>
 </body>
 
 </html>

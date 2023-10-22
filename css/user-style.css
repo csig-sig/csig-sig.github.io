@@ -17,7 +17,7 @@ title_body {
 
 .header_left {
     text-align: right;
-    width: 40%;
+    width: 30%;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -139,8 +139,12 @@ content_intro {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
-    max-width: 800px;
+    max-width: 900px;
 }
+
+/* .photo-grid_4> :nth-child(2) {
+    margin-right: 20px;
+} */
 
 .photo-grid_3 {
     display: grid;
@@ -174,136 +178,37 @@ content_intro {
     padding: 5px;
 }
 
-.c6421 {
-    width: 75px;
-    height: 75px;
-    float: right;
+/* Apply styles for the entire grid */
+.grid {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    /* 2 columns */
+    gap: 0;
+    /* Remove gap between grid cells */
 }
 
-.htmlpage-row {
-    display: table;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    width: 100%;
+/* Style for the even rows */
+.even-row {
+    /* background-color: #6b2504; */
+    background-color: #262626;
 }
 
-.htmlpage-cell {
-    width: 8%;
-    display: table-cell;
-    height: 75px;
+/* Style for the odd rows */
+.odd-row {
+    background-color: #b08c77;
 }
 
-.c13392 {
+/* Style for all columns within the grid */
+.grid div {
     padding: 10px;
-    font-size: 32px;
-    float: left;
-    font-weight: 700;
-}
-
-.navbar.navbar-expand-lg.fancy.navbar-light.navbar-bg-light.transparent.navbar-clone.fixed {
-    background-color: #ffffff;
-}
-
-.head_bg {
-    background-color: #041348;
-}
-
-.body1 {
-    background-color: #F09415;
-}
-
-.wrapper {
-    background-color: #F09415;
-}
-
-.wrapper.bg-gray {
-    background-color: #25274d;
-    border: 0 solid #25274d;
-}
-
-
-.col-lg-6.offset-lg-1.col-xxl-5.text-center.text-lg-start {
-    width: 1000px;
-    position: relative;
     text-align: left;
-}
-
-
-
-.col-md-8.col-lg-5.d-flex.position-relative.mx-auto {
-    width: 500px;
-}
-
-.progress-list .progressbar.line {
-    height: 8px;
-    background-color: rgb(244, 244, 244);
-}
-
-.row.gy-10.gy-sm-13.gx-lg-3.align-items-center {
-    color: #1afe49;
-}
-
-.fdb-block {
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
+    /* Align text to the right */
     line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizelegibility;
-    padding-top: 100px;
-    padding-right: 0px;
-    padding-bottom: 100px;
-    padding-left: 0px;
-    color: rgb(68, 68, 68);
-    position: relative;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
-    background-color: rgb(255, 255, 255);
+    /* Set the desired line height (adjust as needed) */
 }
 
-.text-center {
-    text-align: center;
-}
-
-.fdb-block .text-h1,
-.fdb-block h1 {
-    font-size: 1.75rem;
-    margin-bottom: 0.5em;
-    margin-top: 0.3em;
-    font-weight: 400;
-}
-
-.img-fluid {
-    max-width: 100%;
-    height: 236.453px;
-    width: 248px;
-}
-
-.fdb-block .text-h3,
-.fdb-block h3 {
-    font-size: 0.875rem;
-    margin-bottom: 0.5em;
-    margin-top: 0.3em;
-    font-weight: 400;
-}
-
-.mt-5 {
-    margin-top: 3rem !important;
-}
-
-.fdb-block img+h3,
-.fdb-block img+h4,
-.fdb-block img+p {
-    margin-top: 20px;
-}
-
-
-
-@media (max-width: 768px) {
-    .htmlpage-cell {
-        width: 100%;
-        display: block;
-    }
+/* Remove margin on <p> elements */
+.grid p {
+    margin: 0;
+    color: #FEFAE0;
 }
