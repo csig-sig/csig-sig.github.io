@@ -4,17 +4,7 @@
 <head>
    <title>Fixed Title</title>
    <style>
-      /* Center the entire page and set max-width */
-      body {
-         background-color: blue;
-         margin: 0;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         height: 100vh;
-      }
-
-      /* Style for the header */
+      /* Style for the title */
       header {
          position: fixed;
          top: 0;
@@ -25,34 +15,36 @@
          padding: 10px;
       }
 
-      /* Style for the content container */
-      .content {
-         max-width: 800px;
+      /* Style for the main content */
+      main {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-top: 60px;
+         /* Adjust as needed to prevent overlap with the fixed title */
       }
 
-      /* Style for paragraphs */
-      p {
-         background-color: orange;
-         padding: 10px;
-         margin: 0;
+      /* Style for the images */
+      img {
+         max-width: 100%;
+         height: auto;
+         margin: 10px;
       }
    </style>
 </head>
 
 <body>
    <header>
-      <h1>Welcome to My Web Page</h1>
+      <h1>Fixed Title</h1>
    </header>
 
-   <!-- Content container with max-width -->
-   <div class="content">
-      <p>This is the first paragraph of the web page. You can use this space to introduce your content.</p>
-
-      <p>Here's another paragraph. You can add as many paragraphs as you need to convey your message.</p>
-
-      <p>And here's a third paragraph for additional information. You can format your text, add images, and more to make
-         your web page look the way you want.</p>
-   </div>
+   <main>
+      <!-- Centered row of images -->
+      <img src="./img/organ-0.jpg" alt="Image 1">
+      <img src="./img/organ-2.png" alt="Image 2">
+      <img src="./img/organ-4.jpeg" alt="Image 3">
+      <img src="./img/organ-0.jpg" alt="Image 4">
+   </main>
 </body>
 
 </html>
