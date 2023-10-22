@@ -3,108 +3,61 @@
 
 <head>
    <style>
-      /* Apply styles for the entire grid */
-      .grid {
-         display: grid;
-         grid-template-columns: repeat(2, 1fr);
-         /* 2 columns */
-         gap: 0;
-         /* Remove gap between grid cells */
-      }
-
-      /* Style for the even rows */
-      .even-row {
-         background-color: lightblue;
-      }
-
-      /* Style for the odd rows */
-      .odd-row {
-         background-color: lightgreen;
-      }
-
-      /* Style for the left column text */
-      .left-column {
-         text-align: right;
-         /* Align text to the right in the left column */
+      /* Style for the title */
+      header {
+         position: fixed;
+         top: 0;
+         left: 0;
+         width: 100%;
+         background-color: black;
+         color: white;
          padding: 10px;
       }
 
-      /* Style for the right column text */
-      .right-column {
-         text-align: left;
-         /* Align text to the left in the right column */
-         padding: 10px;
+      /* Style for the sections */
+      .section {
+         padding: 20px;
       }
 
-      /* Remove margin on <p> elements */
-      .grid p {
-         margin: 0;
+      /* Create a split line between section 2 and 3 */
+      .split-line {
+         border-top: 2px solid black;
+         margin-top: 20px;
       }
    </style>
 </head>
 
 <body>
-   <div class="grid">
-      <div class="even-row">
-         <div class="left-column">
-            <p>Column 1 - Text aligns right</p>
-            <p>Column 1 - More text aligns right</p>
-         </div>
-         <div class="right-column">
-            <p>Column 2 - Text aligns left</p>
-            <p>Column 2 - More text aligns left</p>
-         </div>
-      </div>
-      <div class="even-row">
-         <div class="left-column">
-            <p>Column 1 - Text aligns right</p>
-            <p>Column 1 - More text aligns right</p>
-         </div>
-         <div class="right-column">
-            <p>Column 2 - Text aligns left</p>
-            <p>Column 2 - More text aligns left</p>
-         </div>
-      </div>
-      <div class="odd-row">
-         <div class="left-column">
-            <p>Column 1 - Text aligns right</p>
-            <p>Column 1 - More text aligns right</p>
-         </div>
-         <div class="right-column">
-            <p>Column 2 - Text aligns left</p>
-            <p>Column 2 - More text aligns left</p>
-         </div>
-      </div>
-      <div class="odd-row">
-         <div class="left-column">
-            <p>Column 1 - Text aligns right</p>
-            <p>Column 1 - More text aligns right</p>
-         </div>
-         <div class "right-column">
-            <p>Column 2 - Text aligns left</p>
-            <p>Column 2 - More text aligns left</p>
-         </div>
-      </div>
-      <div class="even-row">
-         <div class="left-column">
-            <p>Column 1 - Text aligns right</p>
-            <p>Column 1 - More text aligns right</p>
-         </div>
-         <div class="right-column">
-            <p>Column 2 - Text aligns left</p>
-            <p>Column 2 - More text aligns left</p>
-         </div>
-      </div>
-      <div class="even-row">
-         <div class="left-column">
-            <p>Column 1 - Text aligns right</p>
-            <p>Column 1 - More text aligns right</p>
-         </div>
-         <div class="right-column">
-            <p>Column 2 - Text aligns left</p>
-            <p>Column 2 - More text aligns left</p>
-         </div>
-      </div>
+   <header>
+      <h1>Fixed Title</h1>
+   </header>
+
+   <div class="section">
+      <p>Section 1 - This is the first section of paragraphs.</p>
+      <p>More content in section 1.</p>
+   </div>
+
+   <div class="section">
+      <p>Section 2 - This is the second section of paragraphs.</p>
+      <p>More content in section 2.</p>
+   </div>
+
+   <!-- Split line between section 2 and 3 -->
+   <div class="split-line"></div>
+
+   <div class="section">
+      <p>Section 3 - This is the third section of paragraphs.</p>
+      <p>More content in section 3.</p>
+   </div>
+
+   <div class="section">
+      <p>Section 4 - This is the fourth section of paragraphs.</p>
+      <p>More content in section 4.</p>
+   </div>
+
+   <div class="section">
+      <p>Section 5 - This is the fifth section of paragraphs.</p>
+      <p>More content in section 5.</p>
    </div>
 </body>
 
