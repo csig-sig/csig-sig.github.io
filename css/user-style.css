@@ -151,7 +151,7 @@ report {
 }
 
 content-header-text {
-    font-size: 16px;
+    font-size: 18px;
     color: #FEFAE0;
     /* font-size: 22px; */
     /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
@@ -166,7 +166,7 @@ content-header-text {
 
 content_date {
     color: black;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 content_normal_text {
