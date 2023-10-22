@@ -64,7 +64,7 @@ title_title {
 .content {
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 60%;
 }
 
 .introduction {
@@ -154,8 +154,10 @@ content-header-text {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-host-speaker {
+.host-speaker {
     color: #262626;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 
