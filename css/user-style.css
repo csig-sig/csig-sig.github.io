@@ -63,8 +63,8 @@ title_title {
 
 .content {
     display: flex;
-    align-items: center;
-    width: 60%;
+    align-items: right;
+    width: 90%;
 }
 
 .introduction {
